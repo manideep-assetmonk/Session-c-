@@ -1,4 +1,7 @@
-
+'use strict';
+/**
+* declaring two promises in all function has arguments.
+**/
 
 
 
