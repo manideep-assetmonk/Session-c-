@@ -14,6 +14,9 @@ const alwaysThrows = (resolve,reject) => {
     .then(iterate)
     .then(iterate)
     .then(iterate)
+/**
+* after alwaysThrows method it will stop executing remaining block for iteration.
+**/
     .then(alwaysThrows)
     .then(iterate)
     .then(iterate)
