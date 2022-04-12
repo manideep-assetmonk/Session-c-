@@ -3,8 +3,15 @@
 function parsePromised(json) {
   return new Promise(function (fulfill, reject) {
     try {
+                /**
+     * block of code to try.
+     **/
       fulfill(JSON.parse(json));
     } catch (e) {
+            /**
+       * block of code to handle error.
+       */
+
       reject(e);
     }
   });
